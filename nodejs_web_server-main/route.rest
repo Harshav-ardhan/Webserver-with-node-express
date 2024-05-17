@@ -1,0 +1,23 @@
+
+
+
+POST http://localhost:3500/employee
+Content-Type: application/json
+
+{
+    "firstname": "Harsha",
+    "lastname": "vardhan"
+}
+#####
+GET http://localhost:3500/employee
+###
+PUT http://localhost:3500/employee
+Content-Type: application/json
+
+{
+    "id" : 2,
+    "firstname": "Harshrtu",
+    "lastname": "vardhan"
+} 
+
+
